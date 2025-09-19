@@ -42,7 +42,7 @@ Once uploaded, the app shows a **preview of the selected image** for confirmatio
 ### 3️⃣ Disease Detection Results  
 The model predicts the class with a **confidence score**.  
 <p align="center">
-  <img src="assets/ui_results.png" width="450" />
+  <img src="Screenshot 2025-09-19 171303.png" width="450" />
 </p>
 
 - ✅ **Label:** Healthy / Disease name  
