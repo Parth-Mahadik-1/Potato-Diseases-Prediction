@@ -34,7 +34,7 @@ The user uploads a potato image to the web app.
 ### 2️⃣ Image Preview Before Detection  
 Once uploaded, the app shows a **preview of the selected image** for confirmation.  
 <p align="center">
-  <img src="assets/ui_preview.png" width="400" />
+  <img src="Screenshot 2025-09-19 171252.png" width="400" />
 </p>
 
 ---
