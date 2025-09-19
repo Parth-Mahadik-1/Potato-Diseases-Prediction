@@ -26,7 +26,7 @@ The app provides **confidence scores** and **disease classification results** in
 ### 1️⃣ Upload an Image  
 The user uploads a potato image to the web app.  
 <p align="center">
-  <img src="assets/ui_upload.png" width="500" />
+  <img src="Screenshot 2025-09-19 171200.png" width="500" />
 </p>
 
 ---
