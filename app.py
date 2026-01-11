@@ -36,7 +36,7 @@ def load_trained_model():
     global model
     try:
         # Use the same model file you used with FastAPI
-        model = tf.keras.models.load_model("model_with_inference_2.h5")
+        model = tf.keras.models.load_model("model/model_with_inference_2.h5")
 
     except Exception as e:
         print(f"❌ Error loading model: {e}")
@@ -147,6 +147,7 @@ def predict():
 if __name__ == '__main__':
     load_trained_model()
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
 
 
