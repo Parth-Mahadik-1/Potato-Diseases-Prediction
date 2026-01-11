@@ -35,11 +35,11 @@ model = None
 def load_trained_model():
     global model
     try:
-        # Use the same model file you used with FastAPI
-        model = tf.keras.models.load_model("model/model_with_inference_2.h5")
-
+        model_path = os.path.join(os.path.dirname(__file__), "model", "model_with_inference_2.h5")
+        model = tf.keras.models.load_model(model_path)
+        print(f"✅ Model loaded successfully from: {model_path}")
     except Exception as e:
-        print(f"❌ Error loading model: {e}")
+        print(f"❌ Could not load model at {model_path}: {e}")
         model = None
 
 # ---------------------------
@@ -147,6 +147,7 @@ def predict():
 if __name__ == '__main__':
     load_trained_model()
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
 
 
